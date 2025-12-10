@@ -1,0 +1,110 @@
+/* Full light-green background */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #dff6e0;   /* light green background */
+  margin: 0;
+  padding: 20px;
+}
+
+/* Main heading */
+h1 {
+  font-weight: 700;
+  color: #1c5d36;
+  text-align: center;
+}
+
+/* Card styling */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #cbe9d2;
+  padding: 1rem !important;
+  box-shadow: 0 2px 10px rgba(0, 80, 20, 0.08);
+  margin-bottom: 1rem;
+}
+
+/* Card hover */
+.card:hover {
+  transform: translateY(-3px);
+  transition: 0.2s;
+  box-shadow: 0 4px 14px rgba(0, 60, 20, 0.15);
+}
+
+/* Dropdown */
+#countrySelect {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #9cd0a8;
+  background: #fafffb;
+}
+
+#countrySelect:focus {
+  border-color: #43a055;
+  box-shadow: 0 0 5px rgba(67, 160, 85, 0.5);
+}
+
+/* Buttons */
+#saveBtn {
+  padding: 10px 16px;
+  border-radius: 10px;
+  background: #43a055;
+  border: none;
+  font-weight: 600;
+  color: white;
+}
+
+#saveBtn:hover {
+  background: #3a8e4a;
+}
+
+#loginBtn {
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  border: 2px solid #43a055;
+  color: #1c5d36;
+}
+
+#loginBtn:hover {
+  background: #d7f3db;
+}
+
+/* Status text */
+#status {
+  font-weight: 600;
+  color: #1c5d36;
+}
+
+/* Flag image */
+.flag {
+  width: 120px;
+  border-radius: 8px;
+  border: 2px solid #d3ecd5;
+  box-shadow: 0 0 6px rgba(0, 50, 0, 0.1);
+}
+
+/* Labels */
+label {
+  font-weight: 600;
+  color: #1c5d36;
+}
+
+/* Container */
+.container {
+  background: #ffffff;
+  border: 3px solid #43a055;      /* green border */
+  border-radius: 15px;            /* rounded corners */
+  padding: 25px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* Saved record cards */
+#records .card {
+  background: #f7fff8;
+  border-left: 4px solid #43a055;
+}
+
+/* Sub-text */
+p, small, h3 {
+  color: #1c5d36 !important;
+}
